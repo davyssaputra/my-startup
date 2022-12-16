@@ -1,0 +1,31 @@
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Staatliches&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/clothes.css");
+
+
+body{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 18px;
+  margin: 0px;
+  background-color: black;
+}
+
+h1,h2,h3 {
+  font-family: 'Staatliches', cursive;
+  font-weight: bold;
+  color: lightgrey;
+}
+a{
+  text-decoration: none;
+}
+
+  h1 {
+    text-align: center;
+  }
+
+</style>

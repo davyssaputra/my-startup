@@ -1,0 +1,188 @@
+<html>
+  <head>
+    <title>Bershka.</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .header {
+        background-color: #ffb3b3;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+      }
+      
+      .header h1 {
+        margin: 0;
+        font-size: 2em;
+      }
+      
+      .header .search-form {
+        display: flex;
+        align-items: center;
+      }
+      
+      .header .search-form input {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: 1em;
+        color: #333;
+      }
+      
+      .header .search-form button {
+        border: none;
+        outline: none;
+        background-color: transparent;
+        font-size: 1em;
+        color: #333;
+        cursor: pointer;
+      }
+      
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ffb3b3;
+        color: white;
+        padding: 10px;
+      }
+      
+      .navbar a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+      }
+      
+      .navbar a:hover {
+        color: #333;
+      }
+      
+      .navbar .cart-link {
+        display: flex;
+        align-items: center;
+      }
+      
+      .navbar .cart-link img {
+        width: 20px;
+        margin-right: 5px;
+      }
+      
+      .main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 20px;
+      }
+      
+      .product-card {
+        width: 300px;
+        background-color: white;
+        border: 1px solid lightgrey;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+      
+      .product-card img {
+        width: 100%;
+      }
+      
+      .product-card h3 {
+        padding: 10px;
+      }
+      
+      .product-card p {
+        padding: 0 10px 10px 10px;
+      }
+      
+      .product-card .price {
+        color: #ffb3b3;
+      }
+      
+      .product-card button {
+        background-color: #ffb3b3;
+        border: none;
+        color: white;
+        padding: 10px;
+        font-size: 1em;
+        cursor: pointer;
+      }
+      
+      .product-      card button:hover {
+        background-color: #ff8080;
+      }
+      
+      .footer {
+        background-color: #ffb3b3;
+        color: white;
+        padding: 0px auto;
+        text-align: center;
+      }
+      
+      .footer p {
+        margin: 0;
+      }
+      
+      .footer .typeform-wrapper {
+        width: 80%;
+        max-width: 600px;
+        margin: 0 auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <center>
+      <h1>Bershka.</h1>
+    </center>
+      <form class="search-form">
+        <input type="text" placeholder="Search...">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+    <div class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <div class="cart-link">
+        <a href="#"><img src="cart.png" alt="Cart">Cart (0)</a>
+      </div>
+    </div>
+    <div class="main">
+      <div class="product-card">
+        <img src="product1.jpg" alt="Product 1">
+        <h3>Mom Jeans Skinny Fit</h3>
+        <p>Built to shape your legs like no other. Made with 100% ethically sourced cotton fibers.</p>
+        <p class="price">$30.00</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="product2.jpg" alt="Product 2">
+        <h3>Fitted Plush Dress</h3>
+        <p>Beige. Shapes your waist. Perfect for a casual day-out. Available in limited stocks.</p>
+        <p class="price">$75.00</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="product3.jpg" alt="Product 3">
+        <h3>Ballerina Party Dress</h3>
+        <p>Ready to stun everyone in the club, or your birthday. Your choice. On-sale starting 25 January 2023.</p>
+        <p class="price">$100.00</p>
+        <button>Pre-Order Now</button>
+      </div>
+    </div>
+    <div class="footer">
+  
+     
+      <div class="typeform-wrapper">
+        <div data-tf-widget="FP9NR3F7" data-tf-iframe-props="title=Bershka Form" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+        <iframe src="https://px5lgyw4axh.typeform.com/to/FP9NR3F7" frameborder="0" style="width :100%;height:500px;"></iframe>
+      </div>
+    </div>
+  </body>
+</html>
+
